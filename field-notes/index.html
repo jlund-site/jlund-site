@@ -27,7 +27,7 @@ header{min-height:95px;display:flex;align-items:center;justify-content:space-bet
 .motion img,.motion video{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .5s ease}
 .motion:hover img,.motion:hover video{transform:scale(1.025)}
 .copy{background:var(--orange);color:#fff;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:60px 42px}
-.copy:hover{background:#ec4b14}
+.copy:hover{background:#ec4b14}.copy.dark{background:#111}.copy.dark:hover{background:#202020}.copy.dark .eyebrow,.copy.dark .sub{color:#ff5a1f}
 .copy .eyebrow{letter-spacing:.26em}
 .divider{width:76px;border-top:1px solid #fff;margin:33px auto 45px}
 .copy h2{font:400 clamp(43px,4.5vw,76px)/1.04 Georgia,serif;letter-spacing:-.055em;margin:0 0 37px;max-width:580px}
@@ -45,6 +45,9 @@ footer{display:flex;justify-content:space-between;gap:20px;border-top:1px solid 
 <section class="grid" aria-label="Published Field Notes">
 <a class="tile motion" href="/field-notes/brandywine/" aria-label="Read A Hazy Sunday at Brandywine"><img src="/assets/brandywine-cover.jpg" alt="Polo horses at Brandywine, Pennsylvania" loading="eager"><video autoplay muted loop playsinline preload="metadata" poster="/assets/brandywine-cover.jpg" aria-hidden="true" onerror="this.style.display='none'"><source src="/assets/brandywine-clip-1%20(4).mp4" type="video/mp4"></video></a>
 <a class="tile copy" href="/field-notes/brandywine/" aria-label="Read A Hazy Sunday at Brandywine"><div class="eyebrow">FIELD NOTE 001 / PENNSYLVANIA</div><div class="divider"></div><h2>A Hazy Sunday<br>at Brandywine</h2><div class="sub">THE LAST MATCH OF THE SEASON</div><div class="cta">EXPLORE THE STORY ↗</div></a>
+
+<a class="tile copy dark" href="/field-notes/hospital-of-emotions/" aria-label="Read If These Walls Could Feel"><div class="eyebrow">FIELD NOTE 002 / LOS ANGELES / JULY 2026</div><div class="divider"></div><h2>If These Walls<br>Could Feel</h2><div class="sub">HOSPITAL OF EMOTIONS</div><div class="cta">EXPLORE THE STORY ↗</div></a>
+<a class="tile motion" href="/field-notes/hospital-of-emotions/" aria-label="Read If These Walls Could Feel"><img src="/IMG_3010.jpeg" alt="Red illuminated hospital bed installation at Hospital of Emotions" loading="lazy"></a>
 </section>
 </main>
 <footer><span>J.LUND — COLLECT STORIES. NOT THINGS.</span><span>REAL PLACES. REMARKABLE PEOPLE. A MORE CURIOUS LIFE.</span></footer>
